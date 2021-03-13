@@ -5,8 +5,5 @@ void setup() {
 }
 
 void loop() {
-  read_serial();
-  UPDATE_PINS();
-  PRINT();
-  
+  ARDYNAMIC_RUN();    
 }

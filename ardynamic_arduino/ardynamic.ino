@@ -34,7 +34,11 @@ const char plus_del = '+';
 boolean accept_data = false; //Set false at call
 int counter = 0; //Set zero at call
 
-
+void ARDYNAMIC_RUN(){
+  read_serial();
+  UPDATE_PINS();
+  PRINT();
+}
 void read_serial() {
   while (Serial.available()) {
     char c = Serial.read();
