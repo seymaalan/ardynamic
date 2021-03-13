@@ -9,7 +9,7 @@ char data[80]; //Set zero at call
 
 //VIRTUAL_REGISTERS
 // if ram space is an issue, convert convert some of those variables to byte
-
+//deneme
 char STRING_DATA_REGISTER[MAX_STRINGS][MAX_VALUE_LENGTH];//records strings
 int  STRING_LENGTH_REGISTER[MAX_STRINGS];                //
 int  READ_REGISTER[MAX_PIN];                              //
